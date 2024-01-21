@@ -5,9 +5,12 @@ const arrOfStds = students.split(' ')
 arrOfStds.pop()
 arrOfStds.pop()
 
+//remove the first member from an array
 arrOfStds.shift()
+
 //insert new elements at the start of an array
 arrOfStds.unshift('mubarak')
+
 //insert new elements at the end of an array
 arrOfStds.push('ayodele')
 
@@ -20,7 +23,8 @@ arrOfStds.push(...otherstudent)
 arrOfStds.splice(2,0, 'ayere')
 arrOfStds.splice(3,0, ...otherstudent2)
 arrOfStds.splice(arrOfStds.indexOf('amin')+1,0, 'ayere', 'kehinde')
- //filter
+
+//filter
 
 
 console.log(arrOfStds)

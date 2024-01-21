@@ -1,5 +1,4 @@
 let students = 'mubarak marvellous kehinde ekene ayodele franca'
-let 
 
 const arrOfStds = students.split(' ')
 //remove last member from an array
@@ -21,8 +20,11 @@ arrOfStds.push(...otherstudent)
 arrOfStds.splice(2,0, 'ayere')
 arrOfStds.splice(3,0, ...otherstudent2)
 arrOfStds.splice(arrOfStds.indexOf('amin')+1,0, 'ayere', 'kehinde')
+ //filter
+
 
 console.log(arrOfStds)
+
 
 //ARROW Function
 
